@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkslategray;
+}
+
+#main-heading {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 500px;
+  display: flex;
+}
+
+.btn1 {
+  background-color: darkslategray;
+  color: white;
+  border-color: white;
+  border-radius: 20px;
+  height: 200px;
+}
+
+.reveal-text {
+  display: none;
+}
+
+.show-text {
+  display: inline-block;
+  background-color: darkslategray;
+  color: white;
+  border: 1px solid white;
+  border-color: white;
+  border-radius: 20px;
+  text-align: center;
+}
